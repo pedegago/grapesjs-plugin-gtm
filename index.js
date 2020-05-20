@@ -42,8 +42,6 @@ const loadComponents = (editor, options) => {
 
                 const tm = editor.Panels.getButton('views', "open-tm");
                 tm.set('active', 1);
-
-                editor.runCommand("open-tm");
             },
             handleGtmIdChange(model, value) {
                 this.set("content", getIframe(value));
@@ -58,7 +56,7 @@ const loadBlocks = (editor, options) => {
     bm.add("gtm-block", {
         label: "GTM",
         attributes: { class: "fa fa-tags" },
-        category: "Analytics",
+        category: "Extra",
         content: { type: "gtm-block" }
     });
 };
