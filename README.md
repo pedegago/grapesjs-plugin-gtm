@@ -31,6 +31,9 @@ const editor = grapesjs.init({
 5. Automatically the plugin will open the Traits tab in order to include the GTM id of your choice.
 6. As best practice, sort the element from the Layout tab to be the first child of body (This will be solved automatically soon).
 
+## CodePen example
+https://codepen.io/pedegago/pen/bGVZvaO?editors=1011
+
 ### Thanks for using this plugin!
 
 You can contact me as @pedegago on Twitter.
